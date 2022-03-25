@@ -205,6 +205,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+         <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-shade-plugin</artifactId>
+  <version>3.2.4</version>
+  <type>maven-plugin</type>
+</dependency>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
