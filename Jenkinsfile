@@ -23,9 +23,7 @@ stages{
   stage('Deploy to staging'){
               steps {
               build job:'deploy-to-staging'
-            }
-        
-  
+              }
                                 
             }
        stage('Deploy to Production'){
@@ -34,6 +32,7 @@ stages{
                           input message:'Approve PRODUCTION deployment?'
                     }
               build job:'deploy-to-prod'
+              }
                     post{
                           success {
                                 echo 'Code deployment to Production.'
