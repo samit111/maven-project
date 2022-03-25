@@ -196,6 +196,13 @@
         <version>1.2.1</version>
         <scope>test</scope>
       </dependency>
+             
+       <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.4</version>
+        <type>maven-plugin</type>
+       </dependency>
 
       <dependency>
         <groupId>org.mockito</groupId>
@@ -206,12 +213,7 @@
     </dependencies>
   </dependencyManagement>
          
-         <dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-shade-plugin</artifactId>
-  <version>3.2.4</version>
-  <type>maven-plugin</type>
-</dependency>
+     
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
