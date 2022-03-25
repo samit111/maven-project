@@ -1,6 +1,5 @@
 pipeline {
-  
-    agent any
+      agent any
   
   tools {
 
@@ -21,13 +20,14 @@ stages{
             }
         }
   
-  stage('Deploy to staging')
-        steps {
+  stage('Deploy to staging'){
+              steps {
               build job:'deploy-to-staging'
             }
   
           }
-      }  
+      } 
+}
 
 
 
