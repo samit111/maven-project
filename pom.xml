@@ -219,8 +219,7 @@
     </dependencies>
   </dependencyManagement>
          
-     
-
+    
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>https://github.com/samit111/maven-project.git</developerConnection>
